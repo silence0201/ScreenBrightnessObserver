@@ -13,7 +13,7 @@
 		E82D50991E82BF9200EFBDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82D50971E82BF9200EFBDBE /* Main.storyboard */; };
 		E82D509B1E82BF9200EFBDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82D509A1E82BF9200EFBDBE /* Assets.xcassets */; };
 		E82D509E1E82BF9200EFBDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82D509C1E82BF9200EFBDBE /* LaunchScreen.storyboard */; };
-		E82D50A81E82BFD300EFBDBE /* SIScreenBrightnessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D50A71E82BFD300EFBDBE /* SIScreenBrightnessObserver.m */; };
+		E86EDA3D1E82CD96005D5D1D /* SIScreenBrightnessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E86EDA3C1E82CD96005D5D1D /* SIScreenBrightnessObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		E82D509A1E82BF9200EFBDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82D509D1E82BF9200EFBDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82D509F1E82BF9200EFBDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E82D50A61E82BFD300EFBDBE /* SIScreenBrightnessObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIScreenBrightnessObserver.h; sourceTree = "<group>"; };
-		E82D50A71E82BFD300EFBDBE /* SIScreenBrightnessObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIScreenBrightnessObserver.m; sourceTree = "<group>"; };
+		E86EDA3B1E82CD96005D5D1D /* SIScreenBrightnessObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIScreenBrightnessObserver.h; sourceTree = "<group>"; };
+		E86EDA3C1E82CD96005D5D1D /* SIScreenBrightnessObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIScreenBrightnessObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		E82D508D1E82BF9200EFBDBE /* ScreenBrightnessObserveDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E82D50A51E82BFC200EFBDBE /* ScreenBrightnessObserver */,
+				E86EDA3A1E82CD96005D5D1D /* ScreenBrightnessObserver */,
 				E82D50911E82BF9200EFBDBE /* AppDelegate.h */,
 				E82D50921E82BF9200EFBDBE /* AppDelegate.m */,
 				E82D50941E82BF9200EFBDBE /* ViewController.h */,
@@ -83,14 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E82D50A51E82BFC200EFBDBE /* ScreenBrightnessObserver */ = {
+		E86EDA3A1E82CD96005D5D1D /* ScreenBrightnessObserver */ = {
 			isa = PBXGroup;
 			children = (
-				E82D50A61E82BFD300EFBDBE /* SIScreenBrightnessObserver.h */,
-				E82D50A71E82BFD300EFBDBE /* SIScreenBrightnessObserver.m */,
+				E86EDA3B1E82CD96005D5D1D /* SIScreenBrightnessObserver.h */,
+				E86EDA3C1E82CD96005D5D1D /* SIScreenBrightnessObserver.m */,
 			);
-			name = ScreenBrightnessObserver;
-			path = ScreenBrightnessObserve;
+			path = ScreenBrightnessObserver;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -164,10 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86EDA3D1E82CD96005D5D1D /* SIScreenBrightnessObserver.m in Sources */,
 				E82D50961E82BF9200EFBDBE /* ViewController.m in Sources */,
 				E82D50931E82BF9200EFBDBE /* AppDelegate.m in Sources */,
 				E82D50901E82BF9200EFBDBE /* main.m in Sources */,
-				E82D50A81E82BFD300EFBDBE /* SIScreenBrightnessObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

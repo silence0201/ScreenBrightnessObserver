@@ -61,7 +61,7 @@
 		E82D508D1E82BF9200EFBDBE /* ScreenBrightnessObserveDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E82D50A51E82BFC200EFBDBE /* ScreenBrightnessObserve */,
+				E82D50A51E82BFC200EFBDBE /* ScreenBrightnessObserver */,
 				E82D50911E82BF9200EFBDBE /* AppDelegate.h */,
 				E82D50921E82BF9200EFBDBE /* AppDelegate.m */,
 				E82D50941E82BF9200EFBDBE /* ViewController.h */,
@@ -83,12 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E82D50A51E82BFC200EFBDBE /* ScreenBrightnessObserve */ = {
+		E82D50A51E82BFC200EFBDBE /* ScreenBrightnessObserver */ = {
 			isa = PBXGroup;
 			children = (
 				E82D50A61E82BFD300EFBDBE /* SIScreenBrightnessObserver.h */,
 				E82D50A71E82BFD300EFBDBE /* SIScreenBrightnessObserver.m */,
 			);
+			name = ScreenBrightnessObserver;
 			path = ScreenBrightnessObserve;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -323,6 +324,7 @@
 				E82D50A41E82BF9200EFBDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

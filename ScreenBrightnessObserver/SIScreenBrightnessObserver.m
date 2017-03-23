@@ -8,6 +8,12 @@
 
 #import "SIScreenBrightnessObserver.h"
 
+/// 通知UserInfo中屏幕亮度Key
+NSString *const kScreenBrightness = @"Brightness";
+
+/// 通知UserInfo中屏幕亮度样式Key
+NSString *const kScreenBrightnessStyle = @"ScreenBrightnessStyle";
+
 /// 屏幕亮度发送变化话的通知
 NSString *const SIScreenBrightnessDidChangeNotification = @"SIScreenBrightnessDidChangeNotification" ;
 
@@ -50,8 +56,8 @@ NSString *const SIScreenBrightnessStyleDidChangeNotification = @"SIScreenBrightn
     }
     
     NSMutableDictionary *userInfo = [NSMutableDictionary dictionary] ;
-    [userInfo setObject:@(screen.brightness) forKey:@"Brightness"] ;
-    [userInfo setObject:@(brightnessStyle) forKey:@"ScreenBrightnessStyle"] ;
+    [userInfo setObject:@(screen.brightness) forKey:kScreenBrightness] ;
+    [userInfo setObject:@(brightnessStyle) forKey:kScreenBrightnessStyle] ;
     [[NSNotificationCenter defaultCenter] postNotificationName:SIScreenBrightnessDidChangeNotification object:nil userInfo:userInfo] ;
     
     if(self.screenBrightnessStyle == brightnessStyle) return ;

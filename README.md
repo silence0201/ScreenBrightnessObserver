@@ -6,7 +6,11 @@
 一个简单的屏幕亮度观察,可以用来做简单的主题切换
 
 ### 导入
-将项目中`ScreenBrightnessObserver`文件夹拖到项目里  
+将项目中`ScreenBrightnessObserver`文件夹拖到项目里   
+
+或者使用`Pod`安装
+
+	pod 'SIScreenBrightnessObserver', '~> 0.1.0'	
 
 ### 使用
 1. 导入头文件
